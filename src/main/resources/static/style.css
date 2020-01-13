@@ -35,5 +35,11 @@ a.btn.btn-outline-dark:hover{
 	display: flex;
 	justify-content: center;
 }
+footer {
+    position: absolute;
+    height: auto;
+    bottom: -10;
+    width: 100%;
+}
 
 
