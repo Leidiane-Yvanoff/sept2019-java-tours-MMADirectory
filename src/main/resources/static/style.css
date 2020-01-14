@@ -36,9 +36,6 @@ a.btn.btn-outline-dark:hover{
 	justify-content: center;
 }
 
-footer {
-  position: absolute;
-  height: auto;
-  bottom: -10;
-  width: 100%;
+#plgfrscroltwofrtoContainer {
+	bottom: 0;
 }

@@ -15,14 +15,17 @@
 		
         <h2 class="text-center my-3" style="color: #a59468;" th:text="${fichesClub.name}">name</h2>
         <div class="card-body ">
-    	<p class="card-text" th:text="${fichesClub.logo}">logo</p>
+<!--     	<p class="card-text" th:text="${fichesClub.logo}">logo</p> -->
         <img class="img-responsive m-auto "  style="height: 400px; max-width: 100%; display: block;" src="mmfcg.jpg" alt="Card image">
         
         <p class="card-subtitle text-muted mt-3" th:text="${fichesClub.address}">address</p>
         <p class="card-text" th:text="${fichesClub.ville}">ville</p>
-        
+    
       	<p th:text="${fichesClub.description}">description</p>
+      
         </div>
+        
+        <a th:href="@{/}" class="btn btn-outline-dark mx-auto my-4"></i> Retour à l'accueil</a>
 	</div>
 	</div>
 	</div>
