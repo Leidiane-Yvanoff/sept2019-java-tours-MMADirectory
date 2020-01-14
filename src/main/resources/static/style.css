@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Open+Sans:300,400,600|Oswald:300,400,500&display=swap');
+body {
+	position: relative;
+	 min-height: 100vh;
+}
 
 .bg-mma{
 background-color: #212529;
@@ -35,7 +39,21 @@ a.btn.btn-outline-dark:hover{
 	display: flex;
 	justify-content: center;
 }
+footer{
 
-#plgfrscroltwofrtoContainer {
-	bottom: 0;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right: 0;
+
+	
+	
 }
+footer + div {
+	-webkit-display: none;
+}
+footer + span {
+	-webkit-display: none;
+}
+
+
